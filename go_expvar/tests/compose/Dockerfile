@@ -1,4 +1,4 @@
-FROM golang:1.6
+FROM golang:1.20.10
 RUN mkdir /test_go
 ADD test_expvar.go /test_go
 EXPOSE 8079
