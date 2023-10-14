@@ -1,4 +1,4 @@
-FROM python:3.11.1-slim
+FROM python:3.11.6-slim
 
 RUN pip install --no-cache-dir --upgrade pip \
   && pip install --no-cache-dir temporalio==1.0.0
