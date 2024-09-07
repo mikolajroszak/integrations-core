@@ -1,4 +1,4 @@
-FROM alpine:3.17.0
+FROM alpine:3.19.4
 COPY ca.* /root/ca_cert/
 COPY ssl.conf /opt/ssl.conf
 RUN apk add --no-cache openssl git build-base
